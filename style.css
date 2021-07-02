@@ -1,0 +1,183 @@
+
+* {
+
+margin:0;
+padding:0;
+-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+
+body {
+
+
+
+background:url(bg.jpg);
+background-size:cover;
+background-attachment:fixed ;
+}
+
+
+.contenedor{
+    font-family: 'Roboto', sans-serif;
+    width:90%;
+	max-width:1000px;
+	margin:auto;
+
+
+}
+
+#particles-js{
+
+    width:100%;
+	height:100%;
+	position:fixed;
+	background:rgba(0,0,0,.8);
+
+}
+
+
+header{
+
+position: relative;
+height: auto;
+
+
+
+}
+
+
+
+
+header .menu {
+
+background:rgba(255,255,255, .7) ;
+overflow: hidden;
+
+
+}
+
+
+
+header .Logo {
+
+color:rgba(42, 42, 42, 0.7) ;;
+float: left;
+font-size:40px;
+line-height:80px;
+
+
+}
+
+header nav{
+
+float: right;
+
+
+}
+
+header nav ul{
+
+    list-style: none;
+    
+    
+    }
+
+    header nav li{
+
+        float: left;
+        
+        
+        }
+    header nav ul li a{
+
+       text-decoration: none;
+        display: block;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 80px;
+        color: rgba(0,0,0, .8);
+        }
+    header nav ul li:hover{
+
+        color: rgba(0,0,0, .8);
+border-bottom: inset 5px solid #fff;
+
+}
+    header nav ul li a:hover{
+
+        color:#fff;
+background-color: rgb(61, 61, 61);
+
+    }
+
+
+    .texto{
+        font-family: 'Roboto', sans-serif;
+color: #fff;
+position: relative;
+padding: 200px 0px;
+text-align: center;
+font-weight:400px;
+
+
+    }
+
+    .texto h2,  .texto p {
+
+background: rgba(0,0,0, .8);
+display:inline-block;
+padding: 10px 20px;
+size: 300px;
+
+    }
+
+    .texto h2 {
+font-size:40 px;
+letter-spacing:2.5px;
+font-weight: normal;
+
+    }
+
+    .texto p {
+
+font-size: 20px;
+letter-spacing: 2.5px;
+
+    }
+
+
+    .principal {
+position: relative;
+color:#fff;
+text-align: center;
+padding: 30px 0;
+    }
+
+    .principal article {
+
+padding:20px;
+background:rgba(51, 51, 51, 0.561);
+margin-bottom:20px;
+
+
+    }
+
+    .principal article p {
+
+margin-bottom: 20px;
+line-height: 24px;
+
+    }
+
+
+    .principal article .fecha{
+
+color:rgb(175, 175, 175);
+
+
+
+    }
