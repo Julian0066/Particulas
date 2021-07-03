@@ -44,8 +44,7 @@ header{
 
 position: relative;
 height: auto;
-
-
+width: 100%;
 
 }
 
@@ -195,18 +194,64 @@ color:rgb(175, 175, 175);
     @media screen and (max-width:800px) {
 
      
+   
         .principal{
             position: relative;
             color:#fff;
             text-align: center;
-            padding: 30px 50px;
+        width:100%;
+           max-width: 1000px;
+            margin: auto;
+                }   
+
+
     
-            max-width: 100%;
-       margin: auto;
-                }
-
-
 
         
+
+
+                header .menu {
+
+                    background:rgba(255,255,255, .7) ;
+                    overflow: hidden;
+                    
+                    
+                    }
+                    
+
+                    header nav{
+
+                        float: inline-end;
+                  
+                        
+                        }
+
+
+
+                        body {
+
+
+
+                            background:url(bg.jpg);
+                        size: 100%;
+                            background-attachment:fixed ;
+
+align-items: center;
+
+
+                            }
+
+
+
+
+                            header nav ul li a{
+text-align: center;
+                                text-decoration: none;
+                                 display:inline-block;
+                                 font-size: 15px;
+                                 padding: 0 12px;
+                            
+                                 color: rgba(0,0,0, .8);
+                                 }
         
-        }
+                                 }
