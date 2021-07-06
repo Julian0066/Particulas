@@ -9,13 +9,22 @@ padding:0;
 
 }
 
-
+html {
+    min-height: 100%;
+    position: relative;
+  }
 
 body {
 
 
 
 background:url(bg.jpg);
+background-size:cover;
+background-attachment:fixed ;
+}
+.bg-dos {
+
+    background:url(bg2.jpg);
 background-size:cover;
 background-attachment:fixed ;
 }
@@ -52,8 +61,14 @@ width: 100%;
 
 
 header .menu {
+/*
+    background: #999898;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #b1b1b1, #333333);   Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #e2dcdc, #747474);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-background:rgba(255,255,255, .7) ;
+background-image: url(slide1.png);
+
+
 overflow: hidden;
 
 
@@ -63,7 +78,7 @@ overflow: hidden;
 
 header .Logo {
 
-color:rgba(42, 42, 42, 0.7) ;;
+color:rgb(59, 59, 59);
 float: left;
 font-size:40px;
 line-height:80px;
@@ -191,6 +206,136 @@ color:rgb(175, 175, 175);
 
 
 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    .card-g{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+     align-items: center;
+     display: inline-block;
+
+     margin: 10px auto;
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+    
+    .card-g .card{
+        width: 300px;
+        height: 430px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 30px 45px;
+        text-align: center;
+        transition: all 0.25s;
+        display: flex;
+ float: left;
+ background-color: #3b3b3b;
+
+
+    }
+    
+    .card-g .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-g .card img{
+        width: 330px;
+        height: 220px;
+    }
+    
+    
+    .card-g .card h4{
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    .card-g .card p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        color: #fff;
+    }
+    
+    .card-g .card a {
+        font-weight: 500;
+        text-decoration: none;
+        color: #3498db;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        background-color: black;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 40px;
+        color: white;
+position: fixed;
+
+    }
+
+
+
+    footer p {
+        font-family: 'Roboto', sans-serif;
+  text-align: center;
+    line-height:40px;
+    font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width:800px) {
 
      
@@ -215,9 +360,10 @@ color:rgb(175, 175, 175);
 
                 header .menu {
 
-                    background:rgba(255,255,255, .7) ;
+                  
                     overflow: hidden;
-                    
+                    background-image: url(slide1.png);
+
                     
                     }
                     
@@ -241,8 +387,9 @@ color:rgb(175, 175, 175);
 
 align-items: center;
 
+}
 
-                            }
+
 
 
 
@@ -254,7 +401,7 @@ text-align: center;
                                  font-size: 15px;
                                  padding: 0 12px;
                             
-                                 color: rgba(0,0,0, .8);
+                                 color: rgb(51, 51, 51);
                                  }
         
 
@@ -270,4 +417,26 @@ text-align: center;
                 
                                     
                                     }
+
+
+                                    .card-g .card{
+                                        
+                                        height: 430px;
+                                        border-radius: 8px;
+                                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+                                        overflow: hidden;
+                                        margin: 20px;
+                                        text-align: center;
+                                        transition: all 0.25s;
+                                      align-items: center;
+                                 float: left;
+                                    }
+
+
                                  }
+
+
+
+
+
+                             
