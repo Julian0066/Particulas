@@ -388,6 +388,17 @@ position: fixed;
 align-items: center;
 
 }
+                        .bg-dos {
+
+
+
+                            background:url(bg2.jpg);
+                        size: 100%;
+                            background-attachment:fixed ;
+
+align-items: center;
+
+}
 
 
 
